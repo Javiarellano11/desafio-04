@@ -15,35 +15,35 @@
           <legend>🧑🏼Datos Personales👀</legend>
 
           <div class="datos-personales">
-            <label for="">Nombre:*</label>
-            <input class="ancho-i-s-t texto-desde-derecha" type="text" name="Nombre" required>
-          </div> <!-- ! Nombre (2do div) -->
+            <label for="lbl-nombre">Nombre:*</label>
+            <input class="ancho-de-campo texto-desde-derecha" type="text" name="Nombre" id="lbl-nombre" required>
+          </div> <!-- ! Nombre -->
 
           <div class="datos-personales">
-            <label for="">Apellido:*</label>
-            <input class="ancho-i-s-t texto-desde-derecha" type="text" name="Apellido" required>
-          </div> <!-- ! Apellido (3er nombre) -->
+            <label for="lbl-apellido">Apellido:*</label>
+            <input class="ancho-de-campo texto-desde-derecha" type="text" name="Apellido" id="lbl-apellido" required>
+          </div> <!-- ! Apellido -->
 
           <div class="datos-personales">
-            <label for="">Documento:*</label>
-            <input class="ancho-i-s-t texto-desde-derecha" type="text" name="Documento" required>
-          </div> <!-- ! Documento (4to div) -->
+            <label for="lbl-documento">Documento:*</label>
+            <input class="ancho-de-campo texto-desde-derecha" type="text" name="Documento" id="lbl-documento" required>
+          </div> <!-- ! Documento -->
 
           <div class="datos-personales">
-            <label for="">Nacionalidad:*</label>
-            <select class="ancho-i-s-t" name="Nacionalidad" required>
+            <label for="lbl-nacionalidad">Nacionalidad:*</label>
+            <select class="ancho-de-campo" name="Nacionalidad" id="lbl-nacionalidad" required>
               <option value="">- Seleccionar -</option>
               <option value="argentina">Argentina</option>
               <option value="brasilenia">Brasileña</option>
               <option value="uruguaya">Uruguaya</option>
               <option value="otra">Otra</option>
             </select>
-          </div> <!-- ! Nacionalidad (5to div) -->
+          </div> <!-- ! Nacionalidad  -->
 
           <div class="datos-personales">
-            <label for="">Contanos un poco de vos...</label>
-            <textarea class="ancho-i-s-t texto-desde-derecha" name="información"></textarea>
-          </div> <!-- ! Información adicional (6to div) -->
+            <label for="lbl-info">Contanos un poco de vos...</label>
+            <textarea class="ancho-de-campo texto-desde-derecha" name="información" id="lbl-info"></textarea>
+          </div> <!-- ! Información adicional  -->
 
           <div class="datos-personales">
             <label>Sexo:*</label>
@@ -54,13 +54,33 @@
               <label for="masculino">Masculino</label>
               <input type="radio" name="otro" id="otro" value="otro">
               <label for="otro">Otro</label>
-            </div> <!-- ! Elegir sexo (8vo div) -->
-          </div> <!-- ! Género (7mo div) -->          
+            </div> <!-- ! Elegir sexo -->
+          </div> <!-- ! Género  -->          
         </fieldset>
+
+        <hr>
+
+        <fieldset>          
+            <legend>📱Datos de Contacto📩</legend>
+  
+            <div class="datos-personales">
+              <label for="lbl-telefono">Teléfono:</label>
+              <input class="ancho-de-campo texto-desde-derecha" type="text" name="telefono" placeholder="Código de área y número" id="lbl-telefono">
+            </div> <!-- ! telefono de telefono -->
+  
+            <div class="datos-personales">
+              <label for="lbl-correo">Dirección de correo electrónico:*</label>
+              <input class="ancho-de-campo texto-desde-derecha" type="email" name="correo" placeholder="Ej: mail@gmail.com" required id="lbl-correo">
+            </div> <!-- ! datos de correo -->        
+        </fieldset>
+
+        <hr>
+
+        
 
         
       </form>
-    </div> <!-- ! contenedor (1er div)-->
+    </div> <!-- ! contenedor -->
      
   
   
