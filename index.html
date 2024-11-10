@@ -7,7 +7,60 @@
   </head>
   <body>
 
-    <h1 class="bordes-titulo">Vení al Gym! 💪🏼</h1>
+    <h1 class="titulo-bordes">Vení al Gym! 💪🏼</h1>
+
+    <div>
+      <form action="https://postman-echo.com/post" method="post">
+        <fieldset>
+          <legend>🧑🏼Datos Personales👀</legend>
+
+          <div class="datos-personales">
+            <label for="">Nombre:*</label>
+            <input class="ancho-i-s-t texto-desde-derecha" type="text" name="Nombre" required>
+          </div> <!-- ! Nombre (2do div) -->
+
+          <div class="datos-personales">
+            <label for="">Apellido:*</label>
+            <input class="ancho-i-s-t texto-desde-derecha" type="text" name="Apellido" required>
+          </div> <!-- ! Apellido (3er nombre) -->
+
+          <div class="datos-personales">
+            <label for="">Documento:*</label>
+            <input class="ancho-i-s-t texto-desde-derecha" type="text" name="Documento" required>
+          </div> <!-- ! Documento (4to div) -->
+
+          <div class="datos-personales">
+            <label for="">Nacionalidad:*</label>
+            <select class="ancho-i-s-t" name="Nacionalidad" required>
+              <option value="">- Seleccionar -</option>
+              <option value="argentina">Argentina</option>
+              <option value="brasilenia">Brasileña</option>
+              <option value="uruguaya">Uruguaya</option>
+              <option value="otra">Otra</option>
+            </select>
+          </div> <!-- ! Nacionalidad (5to div) -->
+
+          <div class="datos-personales">
+            <label for="">Contanos un poco de vos...</label>
+            <textarea class="ancho-i-s-t texto-desde-derecha" name="información"></textarea>
+          </div> <!-- ! Información adicional (6to div) -->
+
+          <div class="datos-personales">
+            <label>Sexo:*</label>
+            <div class="contenedor-cuadrados-circulos">
+              <input type="radio" name="genero" value="femenino" id="femenino">
+              <label for="femenino">Femenino</label>
+              <input type="radio" name="genero" id="masculino" value="masculino">
+              <label for="masculino">Masculino</label>
+              <input type="radio" name="otro" id="otro" value="otro">
+              <label for="otro">Otro</label>
+            </div> <!-- ! Elegir sexo (8vo div) -->
+          </div> <!-- ! Género (7mo div) -->          
+        </fieldset>
+
+        
+      </form>
+    </div> <!-- ! contenedor (1er div)-->
      
   
   
