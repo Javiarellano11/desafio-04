@@ -7,12 +7,12 @@
   </head>
   <body>
 
-    <h1 class="titulo-bordes">Vení al Gym! 💪🏼</h1>
+    <h1 class="titulo-bordes">Vení al Gym!💪🏼</h1>
 
     <div>
-      <form action="https://postman-echo.com/post" method="post">
+      <form action="https://postman-echo.com/post" method="post" target="_blank">
         <fieldset>
-          <legend>🧑🏼Datos Personales👀</legend>
+          <legend>🧑🏼 Datos Personales 👀</legend>
 
           <div class="datos-personales">
             <label for="lbl-nombre">Nombre:*</label>
@@ -61,7 +61,7 @@
         <hr>
 
         <fieldset>          
-            <legend>📱Datos de Contacto📩</legend>
+            <legend>📱 Datos de Contacto 📩</legend>
   
             <div class="datos-personales">
               <label for="lbl-telefono">Teléfono:</label>
@@ -76,11 +76,62 @@
 
         <hr>
 
-        
+        <fieldset>
+          <legend>🚴 Actividades🤸</legend>
+          <p class="parrafo-fieldset">Por favor, indicá cuáles actividades te interesan.</p>
 
+          <div>
+            <label class="sedes-texto-tamaño">Sede Palermo:</label>
+            <div class="sedes contenedor-cuadrados-circulos">
+              <input type="checkbox" name="actividad" value="basquet">
+              <label class="sedes-texto-tamaño">Básquet</label>
+              <input type="checkbox" name="actividad" value="boxeo">
+              <label class="sedes-texto-tamaño">Boxeo</label>
+              <input type="checkbox" name="actividad" value="futbol">
+              <label class="sedes-texto-tamaño">Fútbol</label>
+              <input type="checkbox" name="actividad" value="tenis">
+              <label class="sedes-texto-tamaño">Tenis</label>
+            </div> <!--! palermo -->
+
+            <label class="sedes-texto-tamaño">Sede Rosario:</label>
+            <div class="sedes contenedor-cuadrados-circulos">
+              <label class="sedes-texto-tamaño">Básquet</label>
+              <input type="checkbox" name="actividad" value="basquet">
+              <label class="sedes-texto-tamaño">Fútbol</label>
+              <input type="checkbox" name="actividad" value="futbol">
+              <label class="sedes-texto-tamaño">Rugby</label>              
+              <input type="checkbox" name="actividad" value="rugby">
+              <label class="sedes-texto-tamaño">Voley</label>              
+              <input type="checkbox" name="actividad" value="voley">              
+            </div> <!--! rosario -->
+          </div> <!--! sedes -->
+        </fieldset>
+
+        <div class="alinear">
+
+        <div class="condiciones contenedor-cuadrados-circulos">
+          <input id="lbl-condiciones" type="checkbox" name="terminos" value="condiciones" required>
+          <label for="lbl-condiciones">Acepto las condiciones*</label>
+        </div><!--! condiciones -->
+        
+        <div class="condiciones contenedor-cuadrados-circulos">
+          <input id="lbl-novedades" type="checkbox" name="terminos" value="novedades">
+          <label for="lbl-novedades">Deseo recibir novedades</label>
+        </div><!--! novedades -->
+
+        <p class="parrafo-color">*: campo obligatorio.</p>
+        
+      </div> <!--! div para alinear al fieldset -->
+
+        <div class="datos-personales">
+          <button type="submit">Iniciar afiliación</button>
+          <button type="reset">Restablecer</button>
+        </div>
+        
         
       </form>
-    </div> <!-- ! contenedor -->
+    </div> <!--! contenedor -->
+    
      
   
   
